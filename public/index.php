@@ -63,6 +63,13 @@ if (!isset($_SESSION["login"])) {
 			<div id="elfinder"></div>
 		</center>
 		<style type="text/css">
+			.elfinder-cwd table tr:nth-child(2n+1) {
+				background-color: #6e017a;
+				color: #fff;
+			}
+			.elfinder-cwd table tr:nth-child(2n+1):hover {
+				color: #000;
+			}
 			.elfinder-navbar-wrapper-root {
 				background-color: #570560;
 				color: #fff;
