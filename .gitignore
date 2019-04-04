@@ -12,4 +12,4 @@ node_modules
 connector.php
 /.phpintel/
 /credentials.php
-/public/root_link_std
+/public/__dird
