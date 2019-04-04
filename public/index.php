@@ -55,7 +55,25 @@ if (!isset($_SESSION["login"])) {
 			});
 		</script>
 	</head>
-	<body>
-		<div id="elfinder"></div>
+	<body style="background-color: #000;">
+		<center>
+			<div style="margin-bottom: 20px;">
+				<a href="logout.php"><button id="lgg">Logout</button></a>
+			</div>
+			<div id="elfinder"></div>
+		</center>
+		<style type="text/css">
+			.elfinder-navbar-wrapper-root {
+				background-color: #570560;
+				color: #fff;
+			}
+			.ui-helper-clearfix {
+				background-color: #570560;
+				color: #fff;
+			}
+			#lgg {
+				cursor: pointer;
+			}
+		</style>
 	</body>
 </html>
