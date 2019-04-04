@@ -19,7 +19,7 @@ if (!isset($_SESSION["login"])) {
 		<script>
 			define('elFinderConfig', {
 				defaultOpts : {
-					url : 'connector.php'
+					url : 'api.php'
 					,commandsOptions : {
 						edit : {
 							extraOptions : {
